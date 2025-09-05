@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-* { 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -7,7 +7,7 @@
 }
 
 .texto-secundario {
-  color: #10B981;
+  color: #10b981;
   font-weight: 600;
 }
 
@@ -17,7 +17,7 @@
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1rem;
-    border: 2px solid #10B981;
+  border: 2px solid #10b981;
 }
 
 .sidebar {
@@ -45,7 +45,7 @@
 
 .sidebar .nav-link:hover,
 .sidebar .nav-link:focus {
-  background-color: #10B981;
+  background-color: #10b981;
   color: #ffff !important;
   outline: none;
 }
@@ -81,12 +81,116 @@
   font-size: 0.85rem;
 }
 
-.btn-color{
-    background-color: #10B981 !important;
-    color: #fff;
-    border: none !important;
+.btn-color {
+  background-color: #10b981 !important;
+  color: #fff;
+  border: none !important;
 }
 
 .btn-color:hover {
-    background-color: #0e9e6c !important;
+  background-color: #0e9e6c !important;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  background: #f3f4f6;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 250px;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+
+.sidebar nav a:hover {
+  background: #f3f4f6;
+}
+
+.sidebar nav a.active {
+  background: #f3f4f6;
+  font-weight: bold;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.main-content h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  margin-bottom: 15px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.messages-list {
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.message-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.message-item:last-child {
+  border-bottom: none;
+}
+
+.message-item .name {
+  font-weight: bold;
+}
+
+.message-item .text {
+  color: #555;
+  font-size: 14px;
+}
+
+.message-item .time {
+  color: #999;
+  font-size: 12px;
+  white-space: nowrap;
 }

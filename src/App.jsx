@@ -4,6 +4,7 @@ import Login from './components/views/Login';
 import Footer from './components/common/Footer';
 import PanelDocente from './components/views/panelDocente/PanelDocenteCursos';
 import PanelDocenteInicio from './components/views/panelDocente/PanelDocenteInicio';
+import PanelDocenteMensaje from './components/views/panelDocente/PanelDocenteMensaje';
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
     <>
      {/* <Login/> */}
      {/* <PanelDocente/> */}
-     <PanelDocenteInicio/>
+     {/* <PanelDocenteInicio/> */}
+     <PanelDocenteMensaje/>
      {/* <Footer/> */}
     </>
   )
